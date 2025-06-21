@@ -1,0 +1,9 @@
+{
+	"name": "kural",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "parvathinathanbala@gmail.com",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}
