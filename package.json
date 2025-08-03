@@ -4,7 +4,19 @@
   "main": "index.js",
   "type": "module",
   "author": "parvathinathanbala@gmail.com",
+  "scripts": {
+    "start": "catalyst serve",
+    "validate": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "deploy": "npm run validate && catalyst deploy"
+  },
   "dependencies": {
     "zcatalyst-sdk-node": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-import": "^2.32.0",
+    "globals": "^16.3.0"
   }
 }
